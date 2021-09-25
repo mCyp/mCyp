@@ -27,5 +27,5 @@ jobs:
 
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://dev.to/feed/gautamkrishnar,https://www.gautamkrishnar.com/feed/"
+          feed_list: "https://rsshub.app/juejin/column/6996669264543350815"
 
