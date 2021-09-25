@@ -27,6 +27,5 @@ jobs:
 
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          comment_tag_name: "Juejin"
-          commit_message: "my blog"
-          feed_list: "https://dev.to/feed/gautamkrishnar"
+          feed_list: "https://dev.to/feed/gautamkrishnar,https://www.gautamkrishnar.com/feed/"
+
