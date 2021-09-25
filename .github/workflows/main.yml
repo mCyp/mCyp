@@ -29,4 +29,4 @@ jobs:
         with:
           comment_tag_name: "Juejin"
           commit_message: "my blog"
-          feed_list: "https://rsshub.app/juejin/posts/5c7780e16fb9a049a8200267"
+          feed_list: "https://dev.to/feed/gautamkrishnar"
