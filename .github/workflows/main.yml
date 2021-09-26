@@ -46,14 +46,7 @@ jobs:
         
       - name: Generate README file
         run: node index.js
-        env:
-          OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
           
-      - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "http://localhost:1200/juejin/posts/3526889033444855"
