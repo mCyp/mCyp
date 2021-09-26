@@ -37,8 +37,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # - name: Run tests
-        # run: npm run test
+      - name: Generate README file
+        run: node index.js
 
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
