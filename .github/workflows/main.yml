@@ -38,9 +38,10 @@ jobs:
         run: npm install
 
       - name: Generate README file
-        run: ｜
-              node index.js
-              cat README.md
+        run: node index.js
+              
+      - name: output README file
+        run: cat README.md
 
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
