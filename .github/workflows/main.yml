@@ -48,9 +48,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.AC_TOKEN }}
 
-      #- uses: gautamkrishnar/blog-post-workflow@master
-        #with:
-          #feed_list: "http://localhost:1200/juejin/posts/3526889033444855"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "http://localhost:1200/juejin/posts/3526889033444855"
       
       - name: Stop containers
         if: always()
