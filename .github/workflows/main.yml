@@ -43,9 +43,14 @@ jobs:
       - name: output README file
         run: cat README.md
 
-      - uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "http://localhost:1200/juejin/posts/3526889033444855"
+      - name: Push new README.md
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.AC_TOKEN }}
+
+      #- uses: gautamkrishnar/blog-post-workflow@master
+        #with:
+          #feed_list: "http://localhost:1200/juejin/posts/3526889033444855"
       
       - name: Stop containers
         if: always()
