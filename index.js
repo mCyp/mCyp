@@ -47,20 +47,7 @@ async function setInstagramPosts() {
   DATA.img3 = instagramImages[2];
 }
 
-async function generateReadMe() {
-  await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
-    if (err) throw err;
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync('README.md', output);
-  });
-}
-
 async function action() {
-  /**
-   * Fetch Weather
-   */
-  await setWeatherInformation();
-
   /**
    * Get pictures
    */
