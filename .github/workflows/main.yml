@@ -47,6 +47,8 @@ jobs:
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.AC_TOKEN }}
+          
+      - uses: actions/checkout@v2
 
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
