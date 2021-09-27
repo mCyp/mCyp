@@ -17,11 +17,11 @@
 #### 最近更新：
 
 <!-- BLOG-POST-LIST:START -->
-- [How I built one of the top 20 most used Github Actions](https://www.gautamkrishnar.com/how-i-built-one-of-the-top-20-most-used-github-actions/)
-- [Show your latest dev.to posts automatically on your GitHub profile readme](https://dev.to/gautamkrishnar/show-your-latest-dev-to-posts-automatically-in-your-github-profile-readme-3nk8)
-- [God Mode in browsers: document.designMode = "on"](https://dev.to/gautamkrishnar/god-mode-in-browsers-document-designmode-on-2pmo)
-- [Skipping the Chrome "Your connection is not private" warning](https://dev.to/gautamkrishnar/quickbits-1-skipping-the-chrome-your-connection-is-not-private-warning-4kp1)
-- [Microsoft Student Partners – Geek is the new rockstar](https://dev.to/gautamkrishnar/microsoft-student-partners--geek-is-the-new-rockstar)
+- [从Github Action入门自动化技术也太轻松了吧！](https://juejin.cn/post/7012045054738956324)
+- [拿来吧你，Compose尝鲜初体验！](https://juejin.cn/post/6996840796938829832)
+- [Android转场动画的前世今生](https://juejin.cn/post/6976102174627463198)
+- [使用Matrix做一个图片过渡动画吧！](https://juejin.cn/post/6956028759497506846)
+- [协程+Retrofit 让你的代码足够优雅](https://juejin.cn/post/6950067677285056520)
 <!-- BLOG-POST-LIST:END -->
 
 <h3>Välkommen till <img src="https://image.flaticon.com/icons/svg/197/197564.svg" width="13"/> Stockholm!</h3>
