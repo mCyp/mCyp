@@ -48,7 +48,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.AC_TOKEN }}
           
-      - uses: actions/checkout@v2
+      - name: get permission
+        run: chown -R $(whoami) .
 
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
