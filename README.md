@@ -25,11 +25,11 @@
 #### 最近更新：
 
 <!-- BLOG-POST-LIST:START -->
-- [How I built one of the top 20 most used Github Actions](https://www.gautamkrishnar.com/how-i-built-one-of-the-top-20-most-used-github-actions/)
-- [Show your latest dev.to posts automatically on your GitHub profile readme](https://dev.to/gautamkrishnar/show-your-latest-dev-to-posts-automatically-in-your-github-profile-readme-3nk8)
-- [God Mode in browsers: document.designMode = "on"](https://dev.to/gautamkrishnar/god-mode-in-browsers-document-designmode-on-2pmo)
-- [Skipping the Chrome "Your connection is not private" warning](https://dev.to/gautamkrishnar/quickbits-1-skipping-the-chrome-your-connection-is-not-private-warning-4kp1)
-- [Microsoft Student Partners – Geek is the new rockstar](https://dev.to/gautamkrishnar/microsoft-student-partners--geek-is-the-new-rockstar)
+- [八道题带你看懂正则表达式！](https://juejin.cn/post/7022823286258008071)
+- [专业度拉满！如何让你的掘金文章动态自动同步到Github个人主页](https://juejin.cn/post/7017666868865400868)
+- [从Github Action入门自动化技术也太轻松了吧！](https://juejin.cn/post/7012045054738956324)
+- [拿来吧你，Compose尝鲜初体验！](https://juejin.cn/post/6996840796938829832)
+- [Android转场动画的前世今生](https://juejin.cn/post/6976102174627463198)
 <!-- BLOG-POST-LIST:END -->
 
 #### 我的作品
