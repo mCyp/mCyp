@@ -16,36 +16,10 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  social:
-    timeout-minutes: 10
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      
-      - name: Install node
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Generate README file
-        run: node index.js
-
-      - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.AC_TOKEN }}
         
   blog:
     timeout-minutes: 10
     runs-on: ubuntu-latest
-    needs: social
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
