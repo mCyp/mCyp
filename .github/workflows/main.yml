@@ -50,6 +50,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Start containers
+        uses: hoverkraft-tech/compose-action@v2.0.1
+        with: 
+          up-flags: "-d --build"
+      
+
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -57,14 +63,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Start containers
-        run: docker-compose -f "docker-compose.yml" up -d --build
           
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "http://localhost:1200/juejin/posts/3526889033444855"
           
       - name: Stop containers
-        if: always()
-        run: docker-compose -f "docker-compose.yml" down
+        uses: hoverkraft-tech/compose-action@v2.0.1
+        with: 
+          down-flags: ""
