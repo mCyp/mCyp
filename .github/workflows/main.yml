@@ -49,9 +49,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      - name: Start containers
-        run: docker-compose -f "docker-compose.yml" up -d --build
 
       - name: Install node
         uses: actions/setup-node@v1
@@ -60,6 +57,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Start containers
+        run: docker-compose -f "docker-compose.yml" up -d --build
           
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
