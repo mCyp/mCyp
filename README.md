@@ -25,9 +25,9 @@
 #### 最近更新：
 
 <!-- BLOG-POST-LIST:START -->
+- [面试官：你对插件化有什么了解？](https://juejin.cn/post/7411516362916397083)
 - [这是一篇DeepLink入门指南](https://juejin.cn/post/7341720847880798235)
 - [2023年度总结｜再进大厂](https://juejin.cn/post/7320779681674002443)
 - [年末随笔｜Android面试总结（简历和自我介绍）](https://juejin.cn/post/7318950135617142847)
 - [这么炫酷的双仿真，原理了解一下？](https://juejin.cn/post/7214855127625121829)
-- [如何写一个炫酷的大屏仿真页](https://juejin.cn/post/7209625823581978680)
 <!-- BLOG-POST-LIST:END -->
